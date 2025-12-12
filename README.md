@@ -47,7 +47,7 @@ private static string GetCellValue(Syncfusion.WinForms.DataGrid.SfDataGrid dGrid
 
 ## Getting the cell value by using cell click event
 
-Get the cell value of nested level [DetailsViewDataGrid](https://help.syncfusion.com/cr/Syncfusion.WinForms.DataGrid.DetailsViewDataGrid.html) by using the [SfDataGrid.CellClick](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.SfDataGrid.html#Syncfusion_WinForms_DataGrid_SfDataGrid_CellClick) event.
+Get the cell value of nested level [DetailsViewDataGrid](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.DetailsViewDataGrid.html) by using the [SfDataGrid.CellClick](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.SfDataGrid.html#Syncfusion_WinForms_DataGrid_SfDataGrid_CellClick) event.
 
 ``` csharp
 (this.sfDataGrid1.DetailsViewDefinitions[0] as GridViewDefinition).DataGrid.CellClick += DataGrid_CellClick;
