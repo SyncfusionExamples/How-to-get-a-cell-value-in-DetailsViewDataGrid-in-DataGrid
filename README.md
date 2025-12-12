@@ -1,10 +1,10 @@
 # How to Get a Cell Value in DetailsViewDataGrid in WinForms DataGrid?
 
-This example illustrates how to get a cell value in `DetailsViewDataGrid` in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
+This example illustrates how to get a cell value in [DetailsViewDataGrid](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.DetailsViewDataGrid.html) in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
 
 ## Getting the cell value by using the row column index of the cell
 
-A particular cell value can be retrieved from records in the [SfDataGrid.View](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.SfDataGrid.html#Syncfusion_WinForms_DataGrid_SfDataGrid_View) by using the row column index of the cell. And get the second level [DetailsViewDataGrid](https://help.syncfusion.com/cr/Syncfusion.WinForms.DataGrid.DetailsViewDataGrid.html) cell value by using the first level grid instance.
+A particular cell value can be retrieved from records in the [SfDataGrid.View](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.SfDataGrid.html#Syncfusion_WinForms_DataGrid_SfDataGrid_View) by using the row column index of the cell. And get the second level `DetailsViewDataGrid` cell value by using the first level grid instance.
 
 ``` csharp
 btnGetCellValue.Click += BtnGetCellValue_Click;
